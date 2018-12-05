@@ -1,8 +1,8 @@
 
 self.addEventListener('install', function(event) {
-  console.log('[Service Worker] Skipping the wait I hope');
-  console.log('adding bytes and bytes');
   self.skipWaiting();
+  console.log('[Service Worker] Skipping the wait I hope');
+  console.log('adding bytes and bytes and bytes');
   console.log('[Service Worker] Installing Service Worker ...', event);
   event.waitUntil(
     caches.open('static')

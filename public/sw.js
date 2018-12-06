@@ -2,7 +2,7 @@
 self.addEventListener('install', function(event) {
   self.skipWaiting();
   console.log('[Service Worker] Skipping the wait I hope');
-  console.log('proof that this is no longer cached locally!');
+  console.log('do we get eeyore back?!');
   console.log('[Service Worker] Installing Service Worker ...', event);
   event.waitUntil(
     caches.open('static')

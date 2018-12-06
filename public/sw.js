@@ -10,6 +10,7 @@ self.addEventListener('install', function(event) {
       console.log('[Service Workder] Precaching App Shell');
       cache.add('/index.html');
       cache.add('/src/js/app.js');
+      
     })
   )
 });
